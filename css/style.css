@@ -1,0 +1,62 @@
+#back {
+  background: url(/images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  height: 90vh;
+}
+
+#road {
+  background: url(/images/images.jpg);
+  position: absolute;
+  z-index: 3;
+  bottom: 1px;
+  width: 99%;
+  height: 130px;
+}
+
+#img {
+  z-index: 4;
+  position: absolute;
+  bottom: 28px;
+  width: 280px;
+  height: 145px;
+}
+
+#leftwheel,
+#rightwheel {
+  width: 70px;
+  height: 70px;
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 18px;
+  z-index: 5;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#leftwheel {
+  left: 23px;
+  transform: rotate(70deg);
+}
+
+#rightwheel {
+  /* border: 10px solid red; */
+  left: 209px;
+}
+
+#btn {
+  background-color: yellowgreen;
+  width: 100px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#dbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
